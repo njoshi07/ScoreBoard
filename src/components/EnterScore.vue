@@ -66,6 +66,12 @@ export default {
         maxgamewinner: this.maxgamewinner,
         selectplayeddate: this.selectplayeddate,
       });
+
+      // Clearing out fields once submitted
+      this.totalgames = "";
+      this.playerwithmaxwins = "";
+      this.maxgamewinner = "";
+      this.selectplayeddate = "";
     },
   },
 };

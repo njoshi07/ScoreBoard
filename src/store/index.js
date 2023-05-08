@@ -20,7 +20,9 @@ export default new Vuex.Store({
   actions: {
   },
   getters: {
-    
+     getPlayedGameDetails(state) {
+         return state.playedGamesDetails.slice().reverse();
+     }   
   },
   modules: {
   }
