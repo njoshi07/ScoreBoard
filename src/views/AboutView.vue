@@ -31,7 +31,7 @@
                 <div class="card-header">
                   <h4>
                     {{ displayPlayedGame.playerwithmaxwins }} wins max number of
-                    games {{ displayPlayedGame.maxgamewinner }} out of
+                    {{ displayPlayedGame.maxgamewinner }} games out of
                     {{ displayPlayedGame.totalgames }}
                   </h4>
                 </div>
@@ -55,6 +55,11 @@
 export default {
   computed: {
     displayPlayedGames() {
+      // console.log(
+      //   "this.$store.getters.getPlayedGameDetails;",
+      //   this.$store.getters.getPlayedGameDetails
+      // );
+
       return this.$store.getters.getPlayedGameDetails;
     },
   },
