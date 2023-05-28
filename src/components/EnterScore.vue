@@ -68,10 +68,10 @@ export default {
       });
 
       // Clearing out fields once submitted
-      this.totalgames = "";
-      this.playerwithmaxwins = "";
-      this.maxgamewinner = "";
-      this.selectplayeddate = "";
+      // this.totalgames = "";
+      // this.playerwithmaxwins = "";
+      // this.maxgamewinner = "";
+      // this.selectplayeddate = "";
     },
   },
 };
