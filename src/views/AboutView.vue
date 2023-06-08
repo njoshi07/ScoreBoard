@@ -14,7 +14,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Collapsible Group Item #1
+              Collapsible Group Item #123
             </button>
           </h5>
         </div>
@@ -55,11 +55,6 @@
 export default {
   computed: {
     displayPlayedGames() {
-      // console.log(
-      //   "this.$store.getters.getPlayedGameDetails;",
-      //   this.$store.getters.getPlayedGameDetails
-      // );
-
       return this.$store.getters.getPlayedGameDetails;
     },
   },
