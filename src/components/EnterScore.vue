@@ -75,7 +75,6 @@ export default {
         this.selectplayeddate
       );
 
-      console.log(validateFields.allFieldsShouldBeFilled());
       // submit form data
       if (validateFields.allFieldsShouldBeFilled()) {
         this.$store.commit("addplayedGameData", {
