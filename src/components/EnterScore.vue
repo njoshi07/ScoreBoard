@@ -67,7 +67,6 @@ export default {
   methods: {
     enterGameData() {
       // validation before submit
-      debugger;
       let validateFields = new FormFieldsValidation(
         this.totalgames,
         this.playerwithmaxwins,
